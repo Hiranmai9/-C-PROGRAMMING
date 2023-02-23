@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void main()
+{
+    int age;
+printf("enter age:");
+scanf("%d",&age);
+if (age>25 && age<30)
+{
+    printf("age:%d",age);
+    printf("\ncofee with me");
+}
+else
+{
+printf("age:%d",age);
+printf("\ngohome");
+printf("\nout of if else");
+}
+}
